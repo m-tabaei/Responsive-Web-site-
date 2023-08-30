@@ -1,0 +1,33 @@
+i{
+    font-size: 22px;
+    color: #136f63;
+    transition: all 300ms linear;
+}
+h3{
+    margin-bottom: -5px !important;
+}
+strong{
+    margin-bottom: 0 !important;
+}
+p{
+    line-height: 10px;
+}
+i.fa-telegram:hover{
+  color: #229ed9;
+}
+i.fa-github:hover{
+    color: #171515;
+}
+i.fa-pinterest:hover{
+    color: #ea4c89;
+}
+/*div.team1{*/
+/*    height: 50px;*/
+/*}*/
+/*div.team2{*/
+/*    height: 50px;*/
+/*}*/
+p{
+    font-size: 10px;
+    /*line-height: 15px;*/
+}

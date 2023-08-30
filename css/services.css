@@ -1,0 +1,28 @@
+section.services > h3 {
+    font-family: SansSerif, Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #212529;
+}
+section.services>div>div>span{
+        font-family: SansSerif, Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #212529;
+}
+section.services>div{
+    cursor: pointer;
+}
+.modal-para{
+    height: 150px;
+    overflow-y: scroll;
+}
+@media screen and (min-width: 768px) {
+    .modal-para{
+    height:auto;
+    overflow-y: visible;
+}
+}
