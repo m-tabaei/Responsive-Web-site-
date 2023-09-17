@@ -1,0 +1,70 @@
+/*--footer--*/
+footer {
+    background: #136f63;
+    direction: rtl;
+}
+
+footer iframe {
+    margin-bottom: 10px
+}
+
+footer .copy {
+    font-family: IRANSans;
+    font-size: 13px;
+    direction: rtl;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+footer .copy a:hover {
+    text-decoration: none;
+}
+
+footer .copy {
+    color: gold;
+}
+
+footer .menu li {
+    font-family: IRANSans;
+    list-style: none;
+}
+
+footer .menu span {
+    font-family: IRANSans;
+    color: white;
+    display: block;
+
+}
+
+footer .menu li a {
+    font-family: IRANSans;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    transition: all 0.5s linear;
+}
+
+footer .menu li a:hover {
+    color: whitesmoke;
+}
+
+footer .menu li i {
+    color: whitesmoke;
+    transition: all 0.5s linear;
+}
+
+footer .menu li i:hover {
+    color: whitesmoke;
+}
+
+footer .menu hr {
+    width: 30%;
+    border: 1px solid darkgreen;
+    text-align: center;
+    display: inline-block;
+}
+
+footer .menu span {
+    margin-top: 20px;
+}
+
+/*--/footer--*/

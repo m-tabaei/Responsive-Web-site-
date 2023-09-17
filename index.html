@@ -1,321 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive-BootStrap</title>
     <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-</head>
-<body>
-<header class="col-12 border border-3 row d-flex align-items-center justify-content-between m-0 px-md-3 py-md-1">
-    <nav class="navbar navbar-expand-md col-3 d-md-none ">
+  </head>
+  <body>
+    <header
+      class="col-12 border border-3 row d-flex align-items-center justify-content-between m-0 px-md-3 py-md-1"
+    >
+      <nav class="navbar navbar-expand-md col-3 d-md-none">
         <div class="container-fluid">
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
-
-
-    </nav>
-    <div class="col-6">
-        <a class=" brand col-4 text-decoration-none" href="javascript:void(0)">smart soft build</a>
-
+      </nav>
+      <div class="col-6">
+        <a class="brand col-4 text-decoration-none" href="javascript:void(0)"
+          >smart soft build</a
+        >
+      </div>
+      <div class="col-3 text-end">
+        <a
+          href="#"
+          class="btn btn-outline-danger rounded-0 px-4 fw-bold text-capitalize"
+        >
+          Join</a
+        >
+      </div>
+    </header>
+    <div class="menu collapse navbar-collaps col-12 ps-2 ps-md-2" id="mynavbar">
+      <ul
+        class="menuItems navbar-nav me-auto text-capitalize d-md-flex flex-md-wrap flex-md-row justify-content-md-around"
+      >
+        <li
+          class="home-md d-md-block d-sm-none d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-place-of-worship"></i>
+          <a class="nav-link" href="javascript:void(0)">Home</a>
+        </li>
+        <li
+          class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-place-of-worship"></i>
+          <a class="nav-link" href="javascript:void(0)">Our place</a>
+        </li>
+        <li
+          class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-server"></i>
+          <a class="nav-link" href="javascript:void(0)">Our services</a>
+        </li>
+        <li
+          class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-user-plus"></i>
+          <a class="nav-link" href="javascript:void(0)">Our Team</a>
+        </li>
+        <li
+          class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-diagram-project"></i>
+          <a class="nav-link" href="javascript:void(0)">Our Project</a>
+        </li>
+        <li
+          class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-address-card"></i>
+          <a class="nav-link" href="javascript:void(0)">about Us</a>
+        </li>
+        <li
+          class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0"
+        >
+          <i class="d-md-none me-3 fa-solid fa-location-dot"></i>
+          <a class="nav-link" href="javascript:void(0)">Contact Us</a>
+        </li>
+      </ul>
     </div>
-    <div class="col-3 text-end">
-        <a href="#" class=" btn btn-outline-danger rounded-0 px-4 fw-bold text-capitalize"> Join</a>
+    <section class="slider">
+      <h2>Our Place</h2>
 
-    </div>
-</header>
-<div class="menu collapse navbar-collaps col-12 ps-2 ps-md-2" id="mynavbar">
-    <ul class="menuItems navbar-nav me-auto text-capitalize d-md-flex flex-md-wrap flex-md-row justify-content-md-around">
-        <li class="home-md d-md-block d-sm-none d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-place-of-worship"></i>
-            <a class="nav-link" href="javascript:void(0)">Home</a>
-        </li>
-        <li class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-place-of-worship"></i>
-            <a class="nav-link" href="javascript:void(0)">Our place</a>
-        </li>
-        <li class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-server"></i>
-            <a class="nav-link" href="javascript:void(0)">Our services</a>
-        </li>
-        <li class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-user-plus"></i>
-            <a class="nav-link" href="javascript:void(0)">Our Team</a>
-        </li>
-        <li class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-diagram-project"></i>
-            <a class="nav-link" href="javascript:void(0)">Our Project</a>
-        </li>
-        <li class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-address-card"></i>
-            <a class="nav-link" href="javascript:void(0)">about Us</a>
-        </li>
-        <li class="d-flex align-items-center nav-item border border-2 border-light border-start-0 border-top-0 border-end-0">
-            <i class="d-md-none me-3 fa-solid fa-location-dot"></i>
-            <a class="nav-link" href="javascript:void(0)">Contact Us</a>
-        </li>
+      <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+        <div class="swiper-wrapper" id="swiper-wrapper-2cc68f6e4a727d9f" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(-1200px, 0px, 0px); transition-delay: 0ms;">
+          <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 9" style="width: 1200px;"><img src="./images/banner1.png"></div>
+          <div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 9" style="width: 1200px;"><img src="./images/banner2.jpg"></div>
+          <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 9" style="width: 1200px;"><img src="./images/banner3.jpg"></div>
+
+        </div>
+        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2cc68f6e4a727d9f" aria-disabled="false"></div>
+        <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-2cc68f6e4a727d9f" aria-disabled="false"></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 
 
-    </ul>
-
-</div>
-<section class="slider">
-    <h2>Our Place</h2>
-    <div class="swiper mySwiper">
+      <!-- <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/place.jpg" alt="Our-Place"></div>
-            <div class="swiper-slide"><img src="images/place.jpg" alt="Our-Place"></div>
-            <div class="swiper-slide"><img src="images/place.jpg" alt="Our-Place"></div>
-
+          <div class="swiper-slide">
+            <img src="images/place.jpg" alt="Our-Place" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/plac" alt="Our-Place" />
+          </div>
+          <div class="swiper-slide">
+            <img src="images/place.jpg" alt="Our-Place" />
+          </div>
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
-    </div>
-</section>
-<main class="">
-    <section class="services text-center">
+      </div> -->
+    </section>
+    <main class="">
+      <section class="services text-center m-3">
         <h2>Our services</h2>
         <div class="row col-12 m-0 p-2 text-center">
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/1.png" alt="">
-                </div>
-                <span>front-end</span>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/1.png" alt="" />
             </div>
+            <span>front-end</span>
+          </div>
 
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/2.png" alt="">
-                </div>
-                <span>back-end</span>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/2.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/3.png" alt="">
-                </div>
-                <span>seo</span>
+            <span>back-end</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/3.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/4.png" alt="">
-                </div>
-                <span>ui</span>
+            <span>seo</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/4.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/5.png" alt=""></div>
-                <span>ux</span>
+            <span>ui</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/5.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/6.png" alt=""></div>
-                <span>graphic design</span>
+            <span>ux</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/6.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/7.png" alt=""></div>
-                <span>wordpress</span>
+            <span>graphic design</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/7.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/8.png" alt=""></div>
-                <span>prestashop</span>
+            <span>wordpress</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/8.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/9.png" alt=""></div>
-                <span>data analyse</span>
+            <span>prestashop</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/9.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/10.png" alt="">
-                </div>
-                <span>machin learning</span>
+            <span>data analyse</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/10.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/11.png" alt="">
-                </div>
-                <span>deep learning</span>
+            <span>machin learning</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/11.png" alt="" />
             </div>
-            <div class="col-3 mb-2 col-md-2 mb-md-3 text-md-center" data-bs-toggle="modal" data-bs-target="#myModal">
-                <div class="col-12">
-                    <img class="img-fluid" src="./images/12.png" alt="">
-                </div>
-                <span>image processing</span>
+            <span>deep learning</span>
+          </div>
+          <div
+            class="col-3 mb-2 col-md-2 mb-md-3 text-md-center"
+            data-bs-toggle="modal"
+            data-bs-target="#myModal"
+          >
+            <div class="col-12">
+              <img class="img-fluid" src="./images/12.png" alt="" />
             </div>
-
+            <span>image processing</span>
+          </div>
         </div>
         <!-- The Modal -->
         <div class="modal fade" id="myModal">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">Service</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <!-- Modal body -->
-                    <div class="modal-body text-start">
-
-                        <p class="modal-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at atque
-                            illo inventore, ipsa itaque laborum molestias odit qui quis reiciendis rerum, tenetur
-                            voluptatibus. Adipisci at beatae consequuntur corporis, cupiditate deleniti deserunt dolorum
-                            eius eligendi error exercitationem facere harum id incidunt ipsam mollitia neque nihil
-                            numquam odit reprehenderit repudiandae sunt tenetur voluptates! Ab adipisci alias aliquam
-                            aperiam asperiores aut dolores eius est illum, in magnam maiores modi molestias nisi non
-                            obcaecati, possimus quasi qui quia quod ratione recusandae reiciendis totam vel veritatis.
-                            A, aspernatur beatae consequatur corporis cupiditate deleniti eius et ipsa laborum minima
-                            minus non pariatur quasi repellat reprehenderit veritatis, voluptatibus? Accusamus debitis
-                            deserunt, dolor eligendi ex impedit laudantium, magnam nesciunt nostrum sapiente, sed
-                            tempora tempore tenetur veniam voluptate? Amet asperiores beatae consequuntur debitis error,
-                            et exercitationem harum illo iure laborum magnam, natus nostrum quaerat quidem, rem
-                            repellendus sapiente sit soluta velit veniam. Architecto assumenda cumque eligendi eveniet
-                            facilis quas, sed. Aspernatur atque autem beatae, commodi consectetur culpa cum dolor eaque
-                            earum enim est eum fugiat molestiae nobis officiis optio praesentium ratione rerum sed sit
-                            vitae voluptas voluptatibus. Alias aliquid amet animi aperiam at blanditiis consectetur
-                            debitis dicta distinctio ducimus, earum et expedita illo illum ipsam iure iusto labore magni
-                            nostrum numquam odio pariatur porro possimus repellendus sequi sint voluptas. Animi corporis
-                            dicta esse itaque, laboriosam nam nisi recusandae? Ad aperiam deleniti eaque, esse et hic
-                            impedit laboriosam maxime molestiae, natus obcaecati officiis optio placeat quisquam quod
-                            rem rerum. Ab doloribus excepturi facilis fugiat hic illo illum ipsam laboriosam molestias
-                            natus nesciunt nihil nobis numquam pariatur quo quod reiciendis saepe sed sit, suscipit
-                            tempora, temporibus ut voluptatum? Amet dolores enim eum iure laudantium maiores nostrum
-                            ratione suscipit vel veritatis. Architecto assumenda consequatur corporis deleniti dolores
-                            dolorum ducimus ea earum eius, enim error, et facere harum impedit ipsum iste itaque labore
-                            laudantium mollitia necessitatibus nemo nobis officiis omnis perspiciatis quibusdam quisquam
-                            quod quos reiciendis reprehenderit, similique sint tempora tempore vel? Commodi culpa error
-                            ex hic incidunt ipsam magni minus molestiae odit perspiciatis, placeat quaerat quia sequi
-                            suscipit temporibus. Ad amet commodi dolor eaque impedit nesciunt numquam pariatur quaerat
-                            quas quisquam rem soluta, tempora, unde? Amet, eius incidunt iusto non quod sequi soluta
-                            suscipit voluptate voluptatum. Alias architecto corporis distinctio eaque minima. Accusamus
-                            animi architecto aspernatur beatae delectus dicta, ducimus eveniet exercitationem fuga
-                            fugiat, illum libero molestias nisi provident tenetur totam unde voluptates voluptatum.
-                            Animi, cumque dolores, error, explicabo itaque mollitia nemo odio officiis perferendis
-                            placeat praesentium provident quia voluptatum. Ad architecto at autem blanditiis consectetur
-                            consequuntur, corporis cum eaque esse est eveniet expedita facere id laborum magni minima
-                            minus neque nihil nostrum nulla numquam pariatur quaerat quas, qui quos soluta tempore ullam
-                            unde velit vitae? Accusantium assumenda aut delectus deserunt ea earum esse expedita facilis
-                            fugiat illo ipsam itaque iure iusto, laboriosam minima molestiae nesciunt possimus,
-                            praesentium quas quidem rem similique voluptatibus? Alias at dicta earum expedita illo,
-                            minima perspiciatis placeat quas similique. Adipisci consequuntur dicta doloribus explicabo,
-                            facere id iusto laudantium nam nisi, porro rem saepe soluta. Iure, repellendus!</p>
-                        <a href="" class="btn btn-success text-capitalize fw-bolder">
-                            more-info
-                        </a>
-                    </div>
-                </div>
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Service</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+              <!-- Modal body -->
+              <div class="modal-body text-start">
+                <p class="modal-para">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Alias at atque illo inventore, ipsa itaque laborum molestias
+                  odit qui quis reiciendis rerum, tenetur voluptatibus. Adipisci
+                  at beatae consequuntur corporis, cupiditate deleniti deserunt
+                  dolorum eius eligendi error exercitationem facere harum id
+                  incidunt ipsam mollitia neque nihil numquam odit reprehenderit
+                  repudiandae sunt tenetur voluptates! Ab adipisci alias aliquam
+                  aperiam asperiores aut dolores eius est illum, in magnam
+                  maiores modi molestias nisi non obcaecati, possimus quasi qui
+                  quia quod ratione recusandae reiciendis totam vel veritatis.
+                  A, aspernatur beatae consequatur corporis cupiditate deleniti
+                  eius et ipsa laborum minima minus non pariatur quasi repellat
+                  reprehenderit veritatis, voluptatibus? Accusamus debitis
+                  deserunt, dolor eligendi ex impedit laudantium, magnam
+                  nesciunt nostrum sapiente, sed tempora tempore tenetur veniam
+                  voluptate? Amet asperiores beatae consequuntur debitis error,
+                  et exercitationem harum illo iure laborum magnam, natus
+                  nostrum quaerat quidem, rem repellendus sapiente sit soluta
+                  velit veniam. Architecto assumenda cumque eligendi eveniet
+                  facilis quas, sed. Aspernatur atque autem beatae, commodi
+                  consectetur culpa cum dolor eaque earum enim est eum fugiat
+                  molestiae nobis officiis optio praesentium ratione rerum sed
+                  sit vitae voluptas voluptatibus. Alias aliquid amet animi
+                  aperiam at blanditiis consectetur debitis dicta distinctio
+                  ducimus, earum et expedita illo illum ipsam iure iusto labore
+                  magni nostrum numquam odio pariatur porro possimus repellendus
+                  sequi sint voluptas. Animi corporis dicta esse itaque,
+                  laboriosam nam nisi recusandae? Ad aperiam deleniti eaque,
+                  esse et hic impedit laboriosam maxime molestiae, natus
+                  obcaecati officiis optio placeat quisquam quod rem rerum. Ab
+                  doloribus excepturi facilis fugiat hic illo illum ipsam
+                  laboriosam molestias natus nesciunt nihil nobis numquam
+                  pariatur quo quod reiciendis saepe sed sit, suscipit tempora,
+                  temporibus ut voluptatum? Amet dolores enim eum iure
+                  laudantium maiores nostrum ratione suscipit vel veritatis.
+                  Architecto assumenda consequatur corporis deleniti dolores
+                  dolorum ducimus ea earum eius, enim error, et facere harum
+                  impedit ipsum iste itaque labore laudantium mollitia
+                  necessitatibus nemo nobis officiis omnis perspiciatis
+                  quibusdam quisquam quod quos reiciendis reprehenderit,
+                  similique sint tempora tempore vel? Commodi culpa error ex hic
+                  incidunt ipsam magni minus molestiae odit perspiciatis,
+                  placeat quaerat quia sequi suscipit temporibus. Ad amet
+                  commodi dolor eaque impedit nesciunt numquam pariatur quaerat
+                  quas quisquam rem soluta, tempora, unde? Amet, eius incidunt
+                  iusto non quod sequi soluta suscipit voluptate voluptatum.
+                  Alias architecto corporis distinctio eaque minima. Accusamus
+                  animi architecto aspernatur beatae delectus dicta, ducimus
+                  eveniet exercitationem fuga fugiat, illum libero molestias
+                  nisi provident tenetur totam unde voluptates voluptatum.
+                  Animi, cumque dolores, error, explicabo itaque mollitia nemo
+                  odio officiis perferendis placeat praesentium provident quia
+                  voluptatum. Ad architecto at autem blanditiis consectetur
+                  consequuntur, corporis cum eaque esse est eveniet expedita
+                  facere id laborum magni minima minus neque nihil nostrum nulla
+                  numquam pariatur quaerat quas, qui quos soluta tempore ullam
+                  unde velit vitae? Accusantium assumenda aut delectus deserunt
+                  ea earum esse expedita facilis fugiat illo ipsam itaque iure
+                  iusto, laboriosam minima molestiae nesciunt possimus,
+                  praesentium quas quidem rem similique voluptatibus? Alias at
+                  dicta earum expedita illo, minima perspiciatis placeat quas
+                  similique. Adipisci consequuntur dicta doloribus explicabo,
+                  facere id iusto laudantium nam nisi, porro rem saepe soluta.
+                  Iure, repellendus!
+                </p>
+                <a href="" class="btn btn-success text-capitalize fw-bolder">
+                  more-info
+                </a>
+              </div>
             </div>
+          </div>
         </div>
-
+      </section>
     </section>
-    <section class="team">
-        <h2 class=" col-12 mb-4 text-center ">Our Team</h2>
-        <div class="col-12 d-inline-block">
-            <div class="team1 d col-12 m-0 row  border border-1">
-                <div class="col-5 p-0">
-                    <img class="img-fluid w-100 h-100" src="images/person1.jpg" alt="">
-                </div>
-                <div class="col-7 ">
-                    <h3 class="text-center text-capitalize">Mohammad</h3>
-                    <strong class="fw-bold text-danger d-block  mb-1 text-lowercase text-center">Bachelor of
-                        Science </strong>
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate ea,
-                        magni minima
-                        quibusdam quis recusandae. </p>
-                    <div class="d-flex justify-content-around col-4 float-end ">
-                        <a href=""><i class="fa-brands fa-telegram"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
 
-                    </div>
-                </div>
-            </div>
-
+    <section class="team  px-1 px-sm-4 m-3">
+      <div class="text-center fw-bolder ">
+        <h2>Our Team</h2>
+      </div>
+      <div class="person d-flex col-12 rounded-3 shadow-lg mb-1 mb-sm-4">
+        <div class="col-4">
+          <img
+            class="col-12 rounded-start h-100"
+            src="./images/person1.jpg"
+            alt="Dr. Müller"
+          />
         </div>
-        <div class="d-inline-block  mt-2">
-            <div class="team1 d col-12 m-0 row  border border-1">
-
-                <div class="col-7 ">
-                    <h3 class="text-center text-capitalize">Mohammad</h3>
-                    <strong class="fw-bold text-danger d-block  mb-1 text-lowercase text-center">Bachelor of
-                        Science </strong>
-                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate ea,
-                        magni minima
-                        quibusdam quis recusandae. </p>
-                    <div class="d-flex col-4  justify-content-between">
-                        <a href=""><i class="fa-brands fa-telegram"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
-
-                    </div>
-                </div>
-                <div class="col-5 p-0 ">
-                    <img class="img-fluid w-100 h-100" src="images/person2.jpg" alt="">
-
-                </div>
-            </div>
-
+        <div class="txt col-8 px-2 py-1 m-auto px-xl-4">
+          <p
+            class="fw-bolder m-0 mb-sm-1
+          m-md-2 mb-xl-4"
+          >
+            Dr. Jochen Müller
+          </p>
+          <p
+            class="fw-bold m-0 mb-sm-1
+          m-md-2 mb-xl-4 mb-xxl-5"
+          >
+            PHD of AI & Robotics
+          </p>
+          <p
+            class="lh-1 m-0 mb-sm-1
+          m-md-2 mb-xl-2  mb-xxl-3 mb-xxl-5"
+          >
+            Lorem ipsum dolor sit amet, consectetur
+            <span class="d-none d-sm-inline"
+              >adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat</span
+            ><a class="text-decoration-none" href="#">... read more</a>
+          </p>
+          <a class="mb-1 me-1 ms-md-2" href="#"
+            ><i class="fa-brands fa-telegram"></i></a>
+          <a class="mb-1 me-1" href="#"
+            ><i class="fa-brands fa-github"></i></a>
+          <a class="mb-1 me-1" href="#"
+            ><i class="fa-brands fa-pinterest"></i></a>
         </div>
-
-
+      </div>
+      <div class="person d-flex col-12 rounded-3 shadow-lg">
+        <div class="txt col-8 px-2 py-1 m-auto px-xl-4">
+          <p
+            class="fw-bolder m-0 mb-sm-1
+          m-md-2 mb-xl-4 "
+          >
+            Dr. Wolf Schumacher
+          </p>
+          <p
+            class="fw-bold m-0 mb-sm-1
+          m-md-2 mb-xl-4 mb-xxl-5"
+          >
+            PHD of AI & Robotics
+          </p>
+          <p
+            class="lh-1 m-0 mb-sm-1
+          m-md-2 mb-xl-2  mb-xxl-3 mb-xxl-5"
+          >
+            Lorem ipsum dolor sit amet, consectetur
+            <span class="d-none d-sm-inline"
+              >adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+              exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat</span
+            ><a class="text-decoration-none" href="#">... read more</a>
+          </p>
+          <a class="mb-1 me-1 ms-md-2" href="#"
+            ><i class="fa-brands fa-telegram"></i></a>
+          <a class="mb-1 me-1" href="#"
+            ><i class="fa-brands fa-github"></i></a>
+          <a class="mb-1 me-1" href="#"
+            ><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+        <div class="col-4">
+          <img
+            class="col-12 rounded-end h-100"
+            src="./images/person2.jpg"
+            alt="Dr. Müller"
+          />
+        </div>
+      </div>
     </section>
-    <section class="project">
-        <h3 class="text-center mb-3">Our project</h3>
-        <div class="owl-carousel col-10 offset-1">
-            <div>
-                <div class="col-12 p-0 m-0 justify-content-center d-flex align-items-center ">
-                    <img src="images/evelin.jpg" alt="">
-                </div>
-
-                <div class="col-12 p-0 m-0 row">
-                    <div class="col-2">
-
-                        <img src="images/small.png" alt="">
-                    </div>
-
-                    <div class="col-10">
-                        <span class="col-12 d-block Pname">Logo Design</span>
-                        <span class="col-12 d-block PAuthor">By maleficent</span>
-                    </div>
-                </div>
+      <section class="project m-3">
+        <h2 class="text-center m-3 ">Our project</h2>
+        <div class="owl-carousel col-10 offset-1 mb-3">
+          <div>
+            <div
+              class="col-10 p-0 m-0 justify-content-center d-flex align-items-center"
+            >
+              <img src="images/evelin.jpg" alt="" />
             </div>
-        </div>
-        <div class="owl-carousel col-10 offset-1">
-            <div>
-                <div class="col-12 p-0 m-0 justify-content-center d-flex align-items-center ">
-                    <img src="images/evelin.jpg" alt="">
-                </div>
 
-                <div class="col-12 p-0 m-0 row">
-                    <div class="col-2">
+            <div class="col-12 p-0 m-0 row">
+              <div class="col-2">
+                <img src="images/small.png" alt="" />
+              </div>
 
-                        <img src="images/small.png" alt="">
-                    </div>
-
-                    <div class="col-10">
-                        <span class="col-12 d-block Pname">Logo Design</span>
-                        <span class="col-12 d-block PAuthor">By maleficent</span>
-                    </div>
-                </div>
+              <div class="col-10">
+                <span class="col-12 d-block Pname">Logo Design</span>
+                <span class="col-12 d-block PAuthor">By maleficent</span>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="owl-carousel col-10 offset-1 mb-3">
+          <div>
+            <div
+              class="col-10 p-0 m-0 justify-content-center d-flex align-items-center"
+            >
+              <img src="images/evelin.jpg" alt="" />
+            </div>
 
-    </section>
-</main>
-<!--js-->
+            <div class="col-12 p-0 m-0 row">
+              <div class="col-2">
+                <img src="images/small.png" alt="" />
+              </div>
+
+              <div class="col-10">
+                <span class="col-12 d-block Pname">Logo Design</span>
+                <span class="col-12 d-block PAuthor">By maleficent</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <section class="container text-center">
+            <section class="row m-0">
+                <section class="menu col-md-4 col-sm-6 col-xs-12">
+                    <span>Location</span>
+                    <hr/>
+    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.689351285895!2d51.43642901525896!3d35.68465038019349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xef92033309e2ae48!2zMzXCsDQxJzA0LjciTiA1McKwMjYnMTkuMCJF!5e0!3m2!1sen!2s!4v1670768529299!5m2!1sen!2s" width="80%" height="100" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+    
+                <section class="meno col-md-4 col-sm-6 col-xs-12">
+                    <ul class="menu">
+                        <span>Social Media</span>
+                        <hr/>
+    
+                        <li>
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <a href="https://login.yahoo.com/?.src=ym&amp;pspid=159600001&amp;activity=mail-direct&amp;.lang=en-US&amp;.intl=us&amp;.done=https%3A%2F%2Fmail.yahoo.com%2Fd">Email: </a>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/emperial_co/">Instagram : </a>
+                        </li>
+                        <li>
+                            <i class="fab fa-telegram"></i>
+                            <a href="https://t.me/emperialservice"> Telegram : </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <a href="#">WebSite: </a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="menu col-md-4 col-sm-6 col-xs-12">
+                    <ul class="address">
+                        <span>Contact Us</span>
+                        <hr/>
+    
+                        <li>
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <a href="#">Phone :</a>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <a href="#"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sequi sapiente mollitia eius aliquid assumenda ex. Veniam aperiam adipisci a!</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-map-pin" aria-hidden="true"></i>
+                            <a href="#">Post Code: </a>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+        <!-- Copyright -->
+        <section class="text-center p-3 copy">
+            <a class="text-white" href="https://mdbootstrap.com/">© 2022 Copyright M.Tabaei the web Developer</a>
+        </section>
+        <!-- Copyright -->
+    </footer>
+    </main>
+    <!--js-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-<script src="node_modules/swiper/swiper-bundle.min.js"></script>
-
-<script src="js/main.js"></script>
-<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <!-- <script src="node_modules/swiper/swiper-bundle.min.js"></script> -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"></script>
+  </body>
 </html>
